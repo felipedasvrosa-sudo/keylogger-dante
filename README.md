@@ -12,33 +12,37 @@ Antes de usar este keylogger, certifique-se de ter a biblioteca `pynput` instala
 
 ```bash
 pip install pynput
+```
 
-Uso
+## Uso
 
 Clone este repositório:
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+````
 
 Navegue até o diretório do projeto:
 
 ```bash
 cd seu-repositorio
+```
 
 Execute o keylogger:
 
 ```bash
 python keylogger.py
+```
 
 As teclas digitadas serão registradas em um arquivo de log com base na data atual.
 
-Aviso
+## Aviso
 Este projeto é estritamente para fins educacionais e éticos. Não o utilize de forma indevida para invadir a privacidade de outras pessoas.
 
-Contribuição
+## Contribuição
 Contribuições são bem-vindas. Sinta-se à vontade para melhorar este projeto e criar pull requests.
 
-Licença
+## Licença
 Este projeto está sob a licença MIT.
 
 Nota: Este keylogger é apenas para fins de estudo. O uso indevido de keyloggers é ilegal e antiético.
@@ -48,4 +52,4 @@ Nota: Este keylogger é apenas para fins de estudo. O uso indevido de keyloggers
 Lembre-se de substituir `seu-usuario` e `seu-repositorio` com o seu nome de usuário e nome do repositório no GitHub. Certifique-se de adicionar um arquivo `LICENSE` ao seu projeto, de acordo com a licença que você deseja usar.
 
 Isso deve fornecer uma introdução básica ao seu projeto e às etapas necessárias para usá-lo. Você pode personalizar o README conforme necessário para incluir mais detalhes ou informações específicas sobre o seu projeto.
-
+```
