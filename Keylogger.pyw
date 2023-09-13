@@ -3,7 +3,7 @@ import re
 import datetime
 
 
-fileLog = "D:/Felipe da Silva Rosa/Documents/Projetos Meus/Python/KeyLogger/text.txt"
+fileLog = "D:/User/Documents/Projetos Meus/Python/KeyLogger/text.txt"
 date = datetime.datetime.now().strftime("%d-%m-%Y")
 fileName = fileLog + date + ".txt"
 
