@@ -47,9 +47,3 @@ Este projeto está sob a licença MIT.
 
 Nota: Este keylogger é apenas para fins de estudo. O uso indevido de keyloggers é ilegal e antiético.
 
-```perl
-
-Lembre-se de substituir `seu-usuario` e `seu-repositorio` com o seu nome de usuário e nome do repositório no GitHub. Certifique-se de adicionar um arquivo `LICENSE` ao seu projeto, de acordo com a licença que você deseja usar.
-
-Isso deve fornecer uma introdução básica ao seu projeto e às etapas necessárias para usá-lo. Você pode personalizar o README conforme necessário para incluir mais detalhes ou informações específicas sobre o seu projeto.
-```
